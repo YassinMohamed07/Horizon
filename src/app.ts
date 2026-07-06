@@ -9,6 +9,7 @@ app.use(cors());
 
 app.get("/", (req, res) => {
   res.status(200).send("App connected successfully");
+  console.log ("test");
 });
 
 export default app;
