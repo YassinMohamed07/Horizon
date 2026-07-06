@@ -14,6 +14,7 @@ const startServer = async (port: number) => {
 
     const server = app.listen(port, () => {
       console.log(`Server is listening at http://localhost:${port}`);
+      console.log("search");
     });
 
     server.on("error", (err: NodeJS.ErrnoException) => {
